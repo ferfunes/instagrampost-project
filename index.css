@@ -1,0 +1,116 @@
+body {
+    background: black;
+}
+
+.wrapper {
+    background: white;
+    width: 600px;
+    height: 800px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family:  sans-serif;
+
+}
+
+
+/*************** picture head ************/
+.picture-head {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide-wrapper {
+    width: 300px;
+    height: 90px;
+    margin: 5px 5px 5px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide-logo{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.leftSide-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-left: -10px;
+
+}
+
+.leftSide-text p {
+    font-size: 17px;
+    margin: 3px;
+    text-align: center;
+    margin-top: -3px;
+    text-align: justify;
+
+}
+
+.rightSide-menu {
+    width: 300px;
+    height: 90px;
+    margin: 5px 5px 5px 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+
+}
+
+
+/************** image *******************/
+.image {
+    width: 600px;
+    height: 460px;
+}
+
+
+/*************** social media icons ***********/
+.socialMedia-icons {
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide-icons {
+    width: 300px;
+    height: 90px;
+    margin: 5px 5px 5px 0px;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    }
+
+.rightSide-icons {
+    width: 300px;
+    height: 90px;
+    margin: 5px 5px 5px 0px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 19px;
+}
+
+
+
+/**************** bottom text ***************/
+.bottom-text {
+    width: 600px;
+    height: 140px;
+    padding-bottom: 30px;
+}
+
+.bottom-text p {
+    padding-left: 20px;
+    padding-right: 10px
+}
